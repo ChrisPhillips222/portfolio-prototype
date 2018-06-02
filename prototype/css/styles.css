@@ -1,0 +1,136 @@
+.goal{
+	text-align: center;
+	font-size:1rem;
+	display:inline-block;
+	position: static;
+	border-style:solid;
+	border-width:2px;
+	margin-top:50px;
+}
+@media (min-width: 544px) {  
+  .goal {font-size:0.9rem;}
+	footer{font-size:0.5rem!important;}
+}
+ 
+@media (min-width: 768px) {  
+  .goal {font-size:1rem;}
+	footer{font-size:0.7rem!important;}
+}
+ 
+@media (min-width: 992px) { 
+ .goal {font-size:1.5rem;}
+	footer{font-size:1rem!important;}
+}
+ 
+@media (min-width: 1200px) {  
+  .goal {font-size:2rem;}
+}
+.portrait {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #d906ec);
+	
+}
+a:link {
+    color: #2F430E;
+}
+
+/* visited link */
+a:visited {
+    color: #2F430E;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: #2F430E;
+}
+html {
+  height: 100vh;
+ 
+}
+body {
+	height: 100vh;
+	background-color: #A1BF8F;
+	overflow: auto;
+}
+main{
+	color:#24281f;
+	padding-bottom: 50px;
+	background: linear-gradient(to bottom, #A1BF8F, #4FA44F);
+	z-index:-100;
+}
+
+footer {
+    display:block;
+	text-align: center;
+	background:#4FA44F;
+	color:#2F430E;
+	z-index:100;
+	padding-top:10px;
+	width: 100%;
+}
+
+#layer1{
+	display:block;
+	margin: 2% 0 0 0;
+	z-index: 1;
+}
+#layer2{
+	display:block;
+	 margin: -100% 0 0 0;
+	 z-index: 2;
+}
+#layer3{
+	display:block;
+	margin: -100% 0 0 0;
+	z-index: 3;
+}
+#layer4{
+	display:block;
+	margin: -100.15% 0 0 0;
+	z-index: 4;
+}
+#layer5{
+	display:block;
+	margin: -100% 0 0 0;
+	z-index: 5; 
+}
+
+.project {
+    text-align: center;
+    /*padding: 200px 0;*/
+    opacity: 0;
+    /*transform: translateY(100px);*/
+    transition: all 1.5s ease-out;
+    height: 100vh;
+    z-index: 10;
+}
+.project.fade-in {
+    opacity: 1;
+    /*transform: translateY(0);*/
+    
+}
+
+.project img {
+    max-width:80%;
+    max-height: 80%;
+}
+.project p{
+    max-width:300px;
+    margin:0 auto;
+    
+     
+}
+
+#project-container {
+    position: relative;
+    background:linear-gradient(to bottom, #A1BF8F, #4FA44F);
+    padding-top:50px;
+    padding-bottom:100px;
+    z-index:100;
+}
